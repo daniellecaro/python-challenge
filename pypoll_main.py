@@ -74,7 +74,7 @@ with open('analysis/election_data.txt', 'w') as text:
     text.write("Election Results\n")
     text.write("-------------------------------------------------------------------\n")
     text.write(f'Total Votes: {total_votes}\n')
-    text.write("-------------------------------------------------------------------")
+    text.write("-------------------------------------------------------------------\n")
     text.write(f'Charles Casper Stockham: {stockham_percent: .3%} ({stockham_votes})\n')
     text.write(f'Diana DeGette: {degette_percent: .3%} ({degette_votes})\n')
     text.write(f'Raymon Anthony Doane: {doane_percent: .3%} ({doane_votes})\n')
